@@ -1,0 +1,205 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1704147700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to launch the browser and maximize the window",
+            "match": {
+              "location": "cucuMail.user_has_to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "To check the funtions of facebook page",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-login-page;to-check-the-funtions-of-facebook-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1353986900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To open the facebook url",
+            "match": {
+              "location": "Scenariooutlines.to_open_the_facebook_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68415400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "To pass values in the \"SOexample one\" email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SOexample one\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Scenariooutlines.to_pass_values_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84160099,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "To pass values in the \"12345\" password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Scenariooutlines.to_pass_values_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "To close the browser",
+            "match": {
+              "location": "Scenariooutlines.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 862834601,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to launch the browser and maximize the window",
+            "match": {
+              "location": "cucuMail.user_has_to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "To check the funtions of facebook page",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-login-page;to-check-the-funtions-of-facebook-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1294236000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To open the facebook url",
+            "match": {
+              "location": "Scenariooutlines.to_open_the_facebook_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85837500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "To pass values in the \"SOexample two\" email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SOexample two\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Scenariooutlines.to_pass_values_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65174499,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "To pass values in the \"24680\" password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"24680\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Scenariooutlines.to_pass_values_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25901,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "To close the browser",
+            "match": {
+              "location": "Scenariooutlines.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook login page",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/gmail.feature",
+    "tags": []
+  }
+]
